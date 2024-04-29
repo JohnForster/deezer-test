@@ -1,5 +1,5 @@
 const run = async () => {
-  const response = fetch("https://api.deezer.com/genre");
+  const response = await fetch("https://api.deezer.com/genre");
 
   const str = await response.text();
 
